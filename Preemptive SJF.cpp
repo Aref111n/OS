@@ -52,7 +52,7 @@ int main() {
 			if(burst_time) 
 				pq.push({-burst_time, idx}) ;
 			else
-				finish[idx] = t ;
+				finish[idx] = t+1 ;
 		} else {
 			if(task<n && idx) 
 				cout << t << " Idle " ;
