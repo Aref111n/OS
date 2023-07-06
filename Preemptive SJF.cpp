@@ -41,8 +41,8 @@ int main() {
 		if(!pq.empty()) {
 			ll id = pq.top().second ;
 			if(idx != id) {
-				if(start[idx]==-1)
-					start[idx]=t;
+				if(start[id]==-1)
+					start[id]=t;
 				cout << t << " P" << id << " " ;
 				idx = id ;
 			}
